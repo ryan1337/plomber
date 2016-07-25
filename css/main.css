@@ -19,7 +19,7 @@ html {
 
 * {
   box-sizing: border-box;
-  font-family: cursive;
+  font-family: "Open Sans";
 }
 
 body {
@@ -31,7 +31,7 @@ body {
 header li {
   display: inline-block;
 
-  padding-left: 10%;
+  margin-left: 10%;
 
   font-size: 20px;
 
@@ -79,12 +79,12 @@ a:hover {
 
 /************************************ARTICLE *********************************************/
 
-h3 {
+.claude {
   text-align: center;
   color: #ECDFBD;
 }
 
-h6 {
+.art {
   text-align: center;
   color: #ECDFBD;
 }
@@ -98,9 +98,72 @@ span {
   font-weight: bold;
 }
 
-p {
+.des {
   text-align: center;
+  padding-top: 20px;
 }
+
+
+
+/*********************************************FOOTER*****************************************/
+
+footer {
+  background-color: #20457C;
+  height: 80px;
+  margin-top: 50px;
+}
+
+.foot {
+  text-align: center;
+  line-height: 80px;
+  color: #ECDFBD;
+  margin-bottom: 0;
+}
+
+/******************************************PLOMBERIE****************************************/
+
+
+.textp {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+
+.robii {
+  display: none;
+}
+
+}
+
+.list {
+  padding-top: 10px;
+}
+
+.textp li {
+  color:  #FB6648;
+}
+
+.textp li:first-line {
+  color: #3B3A35;
+}
+
+/*************************************CONTACT*****************************/
+
+form {
+  max-width: 90%;
+  margin: auto;
+}
+
+
+input {
+  border-radius: 3px;
+}
+
+label {
+  display: block;
+
+}
+
 
 
 
@@ -201,6 +264,18 @@ textarea {
 /* ##################################################################### */
 /* Small devices (tablets, 768px and up) */
    @media (min-width: 768px) {
+     .textp {
+       display: flex;
+       justify-content: center;
+     }
+
+     .soflex {
+       margin-left: 100px;
+     }
+
+     .robii {
+       display: block;
+     }
 
    }
 
