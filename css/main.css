@@ -62,18 +62,11 @@ a:hover {
 
 /****************************************SECTION*****************************************/
 
-  /*div.c-wrapper{
-      width: 80%;
-      margin: auto;
+  div.c-wrapper{
+      margin-top: 70px;
   }
 
 
-
-  .carousel-inner .item  img,
-  .carousel-inner .item a img{
-  width: 100%;
-  margin: auto;
-  }*/
 
 /*************************************** /SECTION *****************************************/
 
@@ -82,11 +75,13 @@ a:hover {
 .claude {
   text-align: center;
   color: #ECDFBD;
+  font-size: 28px;
 }
 
 .art {
   text-align: center;
   color: #ECDFBD;
+  font-size: 20px;
 }
 
 .titre {
@@ -98,10 +93,12 @@ span {
   font-weight: bold;
 }
 
-.des {
+.text {
   text-align: center;
-  padding-top: 20px;
+  padding-top: 60px;
 }
+
+
 
 
 
@@ -150,18 +147,44 @@ footer {
 /*************************************CONTACT*****************************/
 
 form {
-  max-width: 90%;
-  margin: auto;
+  margin: 20px 30px;
+  padding: 0;
+  outline: 0;
+  font-size: 100%;
+  background: transparent;
+  text-align: center;
 }
 
 
 input {
   border-radius: 3px;
+  border: 2px solid #373A3C;
+  /*width: 40%;*/
+  /*height: 40px;*/
 }
 
 label {
   display: block;
 
+
+}
+
+textarea {
+  border: 2px solid #373A3C;
+  border-radius: 3px;
+  /*width: 40%;*/
+}
+
+.envoy {
+  background-color: #20457C;
+  color: white;
+  /*width: 40%;*/
+}
+
+.envoy:hover {
+  background-color: #373A3C;
+  border: 3px solid #20457C;
+  transition: 1s;
 }
 
 
@@ -275,6 +298,19 @@ textarea {
 
      .robii {
        display: block;
+     }
+
+     .envoy {
+       width: 40%;
+     }
+
+     textarea{
+       width: 40%;
+     }
+
+     input {
+       width: 40%;
+       height: 40px;
      }
 
    }
